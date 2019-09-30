@@ -8,7 +8,10 @@ function get_hoho(){
     document.getElementById('hehe').innerHTML = "Kotlin bad";
 }
 window.onload = function(){
-    setTimeout("get_hehe()", 3000);
-    setTimeout("get_hihi()", 3000);
-    setTimeout("get_hoho()", 3000);
+    if (setTimeout("get_hehe()", 5000)){
+        if (setTimeout("get_hehe()", 5000)){
+            setTimeout("get_hoho()", 5000);
+        }
+    }
+
 }
