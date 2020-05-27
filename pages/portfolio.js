@@ -36,17 +36,6 @@ class About extends Component {
                     </div>
                     <div className="timeline-left">
                         <div className="content">
-                            <div className="title">Notes</div>
-                            <div className="description">This was something I started but didn't really finish. It was my attempt in creating notes application with markdown language. I would probably finish it if I didn't start Algebra PHP course.</div>
-                            <div className="links">
-                                <div className="link"><a href="https://github.com/Yurma/notes">Github</a></div>
-                                <div className="link"> | </div>
-                                <div className="link"><a href="https://yurma.wtf/notes">Demo</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="timeline-right">
-                        <div className="content">
                             <div className="title">PHP Movie Database</div>
                             <div className="description">PHP movie database was created as final work for Algebra's PHP course. It was created in PHP and mySQL as course demanded it. </div>
                             <div className="links">
@@ -56,7 +45,7 @@ class About extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="timeline-left">
+                    <div className="timeline-right">
                         <div className="content">
                             <div className="title">Schnitzel</div>
                             <div className="description">This is my biggest project so far. Schnitzel is my first full-stack project where I wanted to test and improve my front-end and back-end skills. I started developing it 6 months after my first front-end project, and I believe it shows how I am evolving as front-end developer. It is a social network for sharing recipes. I learned a lot of new things while I was developing it, like backend-frontend connection, using redux states, react routing, balancing stability with more complex project.</div>
@@ -67,7 +56,7 @@ class About extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="timeline-right">
+                    <div className="timeline-left">
                         <div className="content">
                             <div className="title">Thorn CSS</div>
                             <div className="description">I started developing thorn-css because I needed to style the "schnitzel" project </div>
@@ -76,7 +65,7 @@ class About extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="timeline-left">
+                    <div className="timeline-right">
                         <div className="content">
                             <div className="title">This personal site</div>
                             <div className="description">This site is powerwed by Next.js and uses thorn-css. It is not as big project as "schnitzel" but it still shows my front-end capabilities.</div>
