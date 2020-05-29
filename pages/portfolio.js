@@ -53,6 +53,8 @@ class About extends Component {
                                 <div className="link"><a href="https://github.com/Yurma/schnitzel">Github(front-end)</a></div>
                                 <div className="link"> | </div>
                                 <div className="link"><a href="https://github.com/Yurma/schnitzel_backend">Github(back-end)</a></div>
+                                <div className="link"> | </div>
+                                <div className="link"><a href="https://schnitzel.yurma.wtf/">Demo</a></div>
                             </div>
                         </div>
                     </div>
@@ -67,6 +69,17 @@ class About extends Component {
                     </div>
                     <div className="timeline-right">
                         <div className="content">
+                            <div className="title">Boards</div>
+                            <div className="description">This project was actually my experimentation with drag and drop package and project where I tried using more react hooks. I plan on making it default kanban boards for my projects in the future.</div>
+                            <div className="links">
+                                <div className="link"><a href="https://github.com/Yurma/boards">Github</a></div>
+                                <div className="link"> | </div>
+                                <div className="link"><a href="https://yurma.wtf/boards">Demo</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="timeline-left">
+                        <div className="content">
                             <div className="title">This personal site</div>
                             <div className="description">This site is powerwed by Next.js and uses thorn-css. It is not as big project as "schnitzel" but it still shows my front-end capabilities.</div>
                             <div className="links">
@@ -75,7 +88,6 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <hr className="my-0" />
             </div>
         );
     }
