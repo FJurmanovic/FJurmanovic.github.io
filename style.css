@@ -59,7 +59,7 @@ div#change:hover span.en{
 
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -88,23 +88,23 @@ div#change:hover span.en{
   width: 18px;
   height: 18px;
   right: -9px;
-  background-color: #9ec0ff;
-  top: 23px;
+  background-color: #d4ffe6;
+  top: 10px;
   border-radius: 50%;
   z-index: 1;
 }
 
 .timeline-left::before {
-  content: " ";
+  content: '';
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 10px;
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #ffffff;
+  border: 1px solid #ffffff;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #b8b8b8;
 }
 
 .timeline-right {
@@ -115,6 +115,10 @@ div#change:hover span.en{
   left: 50%;
 }
 
+.link a {
+  padding: 5px;
+  font-weight: 800;
+}
 
 .timeline-right::after {
   content: '';
@@ -123,38 +127,47 @@ div#change:hover span.en{
   height: 18px;
   right: -9px;
   background-color: #9ec0ff;
-  top: 23px;
+  top: 10px;
   border-radius: 50%;
   z-index: 1;
   left: -9px;
 }
 
 .timeline-right::before {
-  content: " ";
+  content: '';
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 10px;
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #ffffff;
+  border: 1px solid #ffffff;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #b8b8b8 transparent transparent;
 }
 
 .timeline .content {
   padding: 20px 30px;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   position: relative;
-  border-radius: 6px;
+  border-radius: 1em;
+}
+
+.timeline-left .content {
+  border-top-right-radius: 0;
+}
+
+.timeline-right .content {
+  border-top-left-radius: 0;
 }
 
 .timeline .thumbnail img {
   width: 100%;
+  border-radius: .8em;
   height: auto;
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1570px) {
   .back {
     right: 20px;
   }
@@ -173,13 +186,18 @@ div#change:hover span.en{
   
   .timeline-left::before, .timeline-right::before {
     left: 90px;
-    border: medium solid #ffffff;
+    border: 1px solid #ffffff;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
 
   .timeline-left::after, .timeline-right::after {
     left: 53px;
+  }
+
+  .timeline-left .content {
+    border-top-left-radius: 0;
+    border-top-right-radius: 1em;
   }
   
   .timeline-right {

@@ -21,7 +21,7 @@ class About extends Component {
                             <div className="title">Shopping cart</div>
                             <div className="thumbnail"><a href="https://yurma.wtf/shopping-cart"><img src="/shopping-cart.png" /></a></div>
                             <div className="labels"><span className="label mr-2">Angular</span><span className="label">Typescript</span></div>
-                            <div className="description">First front-end project that I created. It was for an assigment an internship. Shopping cart helped me start front-end journey and this is where I started to settle with what I wanted to do as a programmer.</div>
+                            <div className="description">First front-end project that I created. It was for an assigment Cobe set for their internship. Shopping cart helped me start front-end journey and this is where I started to settle with what I wanted to do as a programmer.</div>
                             <div className="links">
                                 <div className="link"><a href="https://github.com/Yurma/shopping-cart">Github</a></div>
                                 <div className="link"> | </div>
@@ -32,7 +32,7 @@ class About extends Component {
                     <div className="timeline-right">
                         <div className="content">
                             <div className="title">Todo list</div>
-                            <div className="thumbnail"><a href="https://yurma.wtf/todo-list"><img src="/todo.png" /></a></div>
+                            <div className="thumbnail"><a href="https://yurma.wtf/todo-list"><img src="/todo-list.png" /></a></div>
                             <div className="labels"><span className="label mr-2">React</span><span className="label">Javascript</span></div>
                             <div className="description">My first React project. It was the basic todo-list project with material elements. In this project I learned basics of react.</div>
                             <div className="links">
@@ -45,7 +45,7 @@ class About extends Component {
                     <div className="timeline-left">
                         <div className="content">
                             <div className="title">PHP Movie Database</div>
-                            <div className="thumbnail"><a href="https://php-movie-database.herokuapp.com/"><img src="/php-movie.png" /></a></div>
+                            <div className="thumbnail"><a href="https://php-movie-database.herokuapp.com/"><img src="/movie-database.png" /></a></div>
                             <div className="labels"><span className="label mr-2">PHP</span><span className="label">MySQL</span></div>
                             <div className="description">PHP movie database was created as final work for Algebra's PHP course. It was created in PHP and mySQL as course demanded it. </div>
                             <div className="links">
@@ -74,7 +74,7 @@ class About extends Component {
                         <div className="content">
                             <div className="title">Thorn CSS</div>
                             <div className="labels"><span className="label mr-2">SCSS</span><span className="label">Gulp</span></div>
-                            <div className="description">I started developing thorn-css because I needed to style the "schnitzel" project </div>
+                            <div className="description">I started developing thorn-css because I wanted to have signature design for all my projects. </div>
                             <div className="links">
                                 <div className="link"><a href="https://github.com/Yurma/thorn">Github</a></div>
                             </div>
