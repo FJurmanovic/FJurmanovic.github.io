@@ -13,8 +13,6 @@
         wrapper.appendChild(title);
         wrapper.appendChild(nav);
 
-        console.log("Home");
-
         return wrapper;
     }
 
@@ -42,8 +40,6 @@
         about.appendChild(p3);
         wrapper.appendChild(back);
         wrapper.appendChild(about);
-
-        console.log("About");
         return wrapper;
     }
 
@@ -63,8 +59,6 @@
 
         wrapper.appendChild(back);
         wrapper.appendChild(namespace.timeline.getNode());
-
-        console.log("Portfolio");
         return wrapper;
     }
 
