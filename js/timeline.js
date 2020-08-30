@@ -66,10 +66,10 @@
             ),
             new Content(
                 "Car Dealership",
-                null,
-                ["React", "Javascript", "Mobx"],
-                "Car dealership mockup site.",
-                [new Link("https://github.com/Yurma/car-dealership", "Github"), new Link("http://car-dealership.yurma.wtf/", "Live")],
+                new Thumbnail("https://car-dealership.yurma.wtf", "images/car-dealership.webp"),
+                ["React", "Javascript", "Mobx", "Baasic"],
+                "Project where I used Baasic REST Api service for backend and React + Mobx for frontend. ",
+                [new Link("https://github.com/Yurma/car-dealership", "Github"), new Link("https://car-dealership.yurma.wtf/", "Live")],
             ),
             new Content(
                 "Projects Dashboard",
