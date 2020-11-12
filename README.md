@@ -2,7 +2,7 @@
 
 Portfolio site for my projects made in Next.js and react.
 
-[Live site](https://yurma.wtf)
+[Live site](https://jurmanovic.com)
 
 Features
 --------
