@@ -3,14 +3,14 @@
         const timeline = [
             new Content(
                 "Shopping cart", 
-                new Thumbnail("https://yurma.wtf/shopping-cart", "images/shopping-cart.webp"), 
+                new Thumbnail("https://jurmanovic.com/shopping-cart", "images/shopping-cart.webp"), 
                 ["Angular", "Typescript"], 
                 "First front-end project that I created. It was for an assigment Cobe set for their internship. Shopping cart helped me start front-end journey and this is where I started to settle with what I wanted to do as a programmer.", 
                 [new Link("https://github.com/Yurma/shopping-cart", "Github"), new Link("https://yurma.wtf/shopping-cart", "Live")]
             ),
             new Content(
                 "Todo list",
-                new Thumbnail("https://yurma.wtf/todo-list", "images/todo-list.webp"),
+                new Thumbnail("https://jurmanovic.com/todo-list", "images/todo-list.webp"),
                 ["React", "Javascript"],
                 "My first React project. It was the basic todo-list project with material elements. In this project I learned basics of react.",
                 [new Link("https://github.com/Yurma/todo-list", "Github"), new Link("https://yurma.wtf/todo-list", "Live")]
@@ -24,7 +24,7 @@
             ),
             new Content(
                 "Schnitzel",
-                new Thumbnail("https://schnitzel.yurma.wtf/", "images/schnitzel.webp"),
+                new Thumbnail("https://schnitzel.jurmanovic.com/", "images/schnitzel.webp"),
                 ["React", "Express.js", "MongoDB"],
                 "This is my biggest project so far. Schnitzel is my first full-stack project where I wanted to test and improve my front-end and back-end skills. I started developing it 6 months after my first front-end project, and I believe it shows how I am evolving as front-end developer. It is a social network for sharing recipes. I learned a lot of new things while I was developing it, like backend-frontend connection, using redux states, react routing, balancing stability with more complex project.",
                 [new Link("https://github.com/Yurma/schnitzel_rework", "Github"), new Link("https://schnitzel.yurma.wtf", "Live")]
@@ -38,7 +38,7 @@
             ),
             new Content(
                 "Boards",
-                new Thumbnail("https://yurma.wtf/boards", "images/boards.webp"),
+                new Thumbnail("https://jurmanovic.com/boards", "images/boards.webp"),
                 ["React", "Javascript"],
                 "This project was actually my experimentation with drag and drop package and project where I tried using more react hooks. I plan on making it default kanban boards for my projects in the future.",
                 [new Link("https://github.com/Yurma/boards", "Github"), new Link("https://yurma.wtf/boards", "Live")]
@@ -52,7 +52,7 @@
             ),
             new Content(
                 "Angular Boards",
-                new Thumbnail("https://yurma.wtf/angular-boards", "images/angular-boards.webp"),
+                new Thumbnail("https://jurmanovic.com/angular-boards", "images/angular-boards.webp"),
                 ["Angular", "Typescript"],
                 "Made out of curiosity to see if I could create the same thing in react and angular. And actually created a better version.",
                 [new Link("https://github.com/Yurma/angular-boards", "Github"), new Link("https://yurma.wtf/angular-boards", "Live")]
@@ -66,7 +66,7 @@
             ),
             new Content(
                 "Car Dealership",
-                new Thumbnail("https://car-dealership.yurma.wtf", "images/car-dealership.webp"),
+                new Thumbnail("https://car-dealership.jurmanovic.com", "images/car-dealership.webp"),
                 ["React", "Javascript", "Mobx", "Baasic"],
                 "Project where I used Baasic REST Api service for backend and React + Mobx for frontend. ",
                 [new Link("https://github.com/Yurma/car-dealership", "Github"), new Link("https://car-dealership.yurma.wtf/", "Live")],
