@@ -59,7 +59,7 @@
             ),
             new Content(
                 "Todo Typescript",
-                new Thumbnail("https://yurma.wtf/todo-ts", "images/todo-ts.webp"),
+                new Thumbnail("https://jurmanovic.com/todo-ts", "images/todo-ts.webp"),
                 ["Webpack", "Typescript"],
                 "I wanted to challenge myself so I created pure typescript todo list (like the one I created in reactjs) and built it with webpack.",
                 [new Link("https://github.com/Yurma/todo-ts", "Github"), new Link("https://yurma.wtf/todo-ts", "Live")]
